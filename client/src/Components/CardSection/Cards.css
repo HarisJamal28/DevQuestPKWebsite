@@ -1,0 +1,188 @@
+.cards_main.light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter";
+}
+.cards_main.light .cards_frame {
+  width: 80%;
+}
+.cards_main.light .cards_program {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards_main.light .cards_program .cards_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.cards_main.light .cards_program .cards_tag img {
+  width: 15px;
+  height: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards_main.light .cards_program .cards_tag p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  letter-spacing: 0.76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards_main.light h1 {
+  font-size: 56.8px;
+  font-weight: 600;
+  line-height: 61.6px;
+  letter-spacing: -2.66px;
+  margin-top: 0;
+}
+.cards_main.light .cards_division {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+.cards_main.light .cards_division .cards_alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  width: 20rem;
+  height: 30rem;
+  overflow: hidden;
+}
+.cards_main.light .cards_division .cards_alignment .cards_sect {
+  background-color: #333333;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  padding-top: 100px;
+}
+.cards_main.light .cards_division .cards_alignment .cards_sect img {
+  width: 85px;
+  height: 85px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cards_main.light .cards_division .cards_alignment .cards_sect #title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.cards_main.light .cards_division .cards_alignment .cards_sect p {
+  font-size: 20.5px;
+}
+
+.cards_main.dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter";
+}
+.cards_main.dark .cards_frame {
+  width: 80%;
+}
+.cards_main.dark .cards_program {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards_main.dark .cards_program .cards_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.cards_main.dark .cards_program .cards_tag img {
+  width: 15px;
+  height: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards_main.dark .cards_program .cards_tag p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  letter-spacing: 0.76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #959795;
+}
+.cards_main.dark h1 {
+  font-size: 56.8px;
+  font-weight: 600;
+  line-height: 61.6px;
+  letter-spacing: -2.66px;
+  margin-top: 0;
+}
+.cards_main.dark .cards_division {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+.cards_main.dark .cards_division .cards_alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  width: 20rem;
+  height: 30rem;
+  overflow: hidden;
+}
+.cards_main.dark .cards_division .cards_alignment .cards_sect {
+  background-color: #1D201D;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  padding-top: 100px;
+}
+.cards_main.dark .cards_division .cards_alignment .cards_sect img {
+  width: 85px;
+  height: 85px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cards_main.dark .cards_division .cards_alignment .cards_sect #title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.cards_main.dark .cards_division .cards_alignment .cards_sect p {
+  font-size: 20.5px;
+}/*# sourceMappingURL=Cards.css.map */

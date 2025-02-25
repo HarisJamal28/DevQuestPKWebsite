@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.landingpage_main.light {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  background: url("") no-repeat center center/cover;
+  position: relative;
+}
+.landingpage_main.light .Ellipse {
+  position: absolute;
+  width: 822px;
+  height: 822px;
+  filter: blur(300px);
+  z-index: 0;
+}
+.landingpage_main.light .Ellipse:nth-of-type(1) {
+  top: -473px;
+  left: -473px;
+  background: #4D6FB8; /* Light background */
+}
+.landingpage_main.light .Ellipse:nth-of-type(2) {
+  top: 584px;
+  left: 1482px;
+  background: #9F60C6; /* Light background */
+}
+.landingpage_main.light .toggle {
+  width: 180px;
+  border-radius: 3rem;
+  border: 3px solid #4F378B;
+  display: flex;
+  height: 3rem;
+  position: absolute;
+  top: 50rem;
+  right: 12rem;
+  font-family: "Inter", serif;
+}
+.landingpage_main.light .toggle button {
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.landingpage_main.light .toggle button:nth-of-type(1) {
+  border-right: 1px solid #4F378B;
+  color: #79747E;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+.landingpage_main.light .toggle button:nth-of-type(2) {
+  background-color: #4F378B;
+  color: white;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.landingpage_main.dark {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
+.landingpage_main.dark .Ellipse {
+  position: absolute;
+  width: 822px;
+  height: 822px;
+  filter: blur(300px);
+  z-index: 0;
+}
+.landingpage_main.dark .Ellipse:nth-of-type(1) {
+  top: -473px;
+  left: -473px;
+  background: #4D6FB8; /* Light background */
+}
+.landingpage_main.dark .Ellipse:nth-of-type(2) {
+  top: 584px;
+  left: 1482px;
+  background: #9F60C6; /* Light background */
+}
+.landingpage_main.dark h1 {
+  color: white;
+}
+.landingpage_main.dark .toggle {
+  width: 180px;
+  border-radius: 3rem;
+  border: 3px solid #4F378B;
+  display: flex;
+  height: 3rem;
+  position: absolute;
+  top: 50rem;
+  right: 12rem;
+  font-family: "Inter", serif;
+}
+.landingpage_main.dark .toggle button {
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.landingpage_main.dark .toggle button:nth-of-type(1) {
+  border-right: 1px solid #4F378B;
+  color: white;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  background-color: #4F378B;
+}
+.landingpage_main.dark .toggle button:nth-of-type(2) {
+  background-color: transparent;
+  color: #79747E;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}/*# sourceMappingURL=LandingPage.css.map */

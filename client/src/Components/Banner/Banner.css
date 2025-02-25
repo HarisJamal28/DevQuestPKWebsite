@@ -1,0 +1,354 @@
+.banner_main.light {
+  background: transparent;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.banner_main.light aside {
+  width: 100%;
+  height: 100%;
+}
+.banner_main.light aside:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text {
+  position: absolute;
+  left: 12rem;
+  top: 0rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text h1 {
+  font-size: 5.5rem;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #192A44;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text p {
+  font-family: "Inter", serif;
+  color: #192A44;
+  margin-left: 1rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text h3 {
+  font-family: "Inter", serif;
+  color: #192A44;
+  margin-left: 1.5rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_buttons button {
+  border: transparent;
+  font-family: "Inter", serif;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  border-radius: 4rem;
+  width: 150px;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_buttons button:nth-of-type(1) {
+  background-color: #469BFF;
+  border-bottom-left-radius: 0;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_buttons button:nth-of-type(2) {
+  background-color: #192A44;
+  border-bottom-right-radius: 0;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text h3 {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_list {
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 5rem;
+}
+.banner_main.light aside:nth-of-type(1) .banner_text .landingpage_list ul {
+  list-style: none;
+  padding: 0;
+  color: #192A44;
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+.banner_main.light aside:nth-of-type(2) {
+  position: relative;
+  width: 60%;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: -5rem;
+  top: -7.5rem;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .one {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/76a1/6709/a2a831fe0fe9a80326377c292cdbfe2e?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=n1RjI4sx6~MM8xJ0grqCxP2HJUjtDEY9WcJ2H8uYiTV4EJL1c8an4ZPtE2SrEQ26y4F6srATSPdf-pUqRk0tXN~XybRS04mwTFDWj2xGlpxT81rnmyQbxxkE0jE~40~lfU80DL7dhmjadSmZjdO01Btzmg-emzND6xuTwud6LZKqu6i3Z6McA691OVtwCaBaomzEqqVMrgvekBX5C7SXapvcRNkwwT43oRCapzutFTsJmnhb8GtwNy0332p8YY6pMIP4pphkFiFD7A0FfdRUqllSUp2iP5R-Vb4uxfx2q-VbwEYA6XFC445DhrS8pvA9QlqySXC6pLpxbMGBHmBNYg__);
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .circle {
+  position: absolute;
+  height: 43px;
+  width: 43px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(4) {
+  background-color: #EEBD19;
+  left: 7rem;
+  bottom: 10rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(2) {
+  background-color: #F04F5A;
+  right: 7rem;
+  top: 10rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(3) {
+  background-color: #2688FC;
+  right: 0rem;
+  bottom: 9rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .two {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .two .top {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3187/aee9/3b26e72b8ef0eb62323b57f2c94ada77?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JP8qUqCHjoEW8CwLW3vRKzPrKExsZOd3-NsQbnjnT84HGlL4xeajtrR5goeInIsM7TSx6caNjnuYuhn3svPs21mypiXtWIBBDEyyQCbKbL29vuCfC70KaAaLw9mXkY4hapIiABeak2vMiua7-gPj8ySQ6ORtEqUi~6cIY2BpwERsu1tPD8vbCKfnyIrV99CTT6Ii7xvQ9lXZ0AB09Q81JE1h51s5g9mMHkWBDyFLYXpoJ9qBn99tQsJ4B436ognP9h85JLqWP8918ZZprMYBB1wv~4aoV4L0F2RcVdWz58XLgfMXdCdVpO2e898t5qzLVIWUaE7XyLzoJOmj-ncY6A__);
+  background-position: center top;
+  background-size: cover;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .two .bottom {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/534a/ab05/852ac2546d87081b636eb52bb85b2a47?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cJcdcNRYcPfqOlMQUgBPf5gzUjGgeotrIITnUOdWcN~K~LcP4DCqc3~KhR4izETPXv07PRhq02W-NESYntncHrwXF~-zSigkOfTLf-xJIsgXjaWsxfXVwdRfTtQRTnqoGn6105~EDQDRnzNPoozU~NbfLq19b1Joctaxs7c~w3OPazWa5mpjGlapGR67v-uBcMOwzxWLC5PtcXgmbibO7OTtn1bYJB0E5Q8mYjQGYn3KmZ4C3d21yCJNB-iJGo0Hf503OsJG4IQ7KRiJu2dXZCeTma5xjEzXODeoFCqPi3C3YTkyz~8bg-82xqGWIpRL03SIrXaFyYY1Qzh~NyEGmA__);
+  background-position: center top;
+  background-size: cover;
+}
+.banner_main.light aside:nth-of-type(2) .landingpage_banner .three {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/30aa/473e/e21ae3eb7e3b8c79f5ecfb8173b840a3?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ErUY9V1jxd97scYgtlXb3SQ2uJn8TCCmwsAooVGPGzbmnuUgfrfponh-0z4RgHSsqWcaNW7hbXkxad940O4HG4MGOuVXoEp50y6PLS9XAdg24zWNrOgCO8XQH5SnoiKwzab-L3yuZn6h8WaUC-mtXgI2ZrCkjITzGf4-cY6hIJdGkKSunhLxq6dElXlS1IrUdsfHOs9aQIXjkMb9heQI2qkYdLSIf~v87Cyamb~NKRZXCcrMu47oOSLo2tLCqzvoe1DsyUOUbtUObv3Ls2qGSL243lUEEsJZuZNZG3eaxlzi6epy0Jcw5y7AzNhy~MhLhkMe9RH2JKR~6cq2yX6YmA__);
+  background-position: center;
+  background-size: 200% 150%;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+}
+
+.banner_main.dark {
+  background: transparent;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.banner_main.dark aside {
+  width: 100%;
+  height: 100%;
+}
+.banner_main.dark aside:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text {
+  position: absolute;
+  left: 12rem;
+  top: 0rem;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text h1 {
+  font-size: 5.5rem;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: white;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text p {
+  font-family: "Inter", serif;
+  color: white;
+  margin-left: 1rem;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text h3 {
+  font-family: "Inter", serif;
+  color: white;
+  margin-left: 1.5rem;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_buttons button {
+  border: transparent;
+  font-family: "Inter", serif;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  border-radius: 4rem;
+  width: 150px;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_buttons button:nth-of-type(1) {
+  background-color: #469BFF;
+  border-bottom-left-radius: 0;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_buttons button:nth-of-type(2) {
+  background-color: #192A44;
+  border-bottom-right-radius: 0;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text h3 {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_list {
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 5rem;
+}
+.banner_main.dark aside:nth-of-type(1) .banner_text .landingpage_list ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+.banner_main.dark aside:nth-of-type(2) {
+  position: relative;
+  width: 60%;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: -5rem;
+  top: -7.5rem;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .one {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/76a1/6709/a2a831fe0fe9a80326377c292cdbfe2e?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=n1RjI4sx6~MM8xJ0grqCxP2HJUjtDEY9WcJ2H8uYiTV4EJL1c8an4ZPtE2SrEQ26y4F6srATSPdf-pUqRk0tXN~XybRS04mwTFDWj2xGlpxT81rnmyQbxxkE0jE~40~lfU80DL7dhmjadSmZjdO01Btzmg-emzND6xuTwud6LZKqu6i3Z6McA691OVtwCaBaomzEqqVMrgvekBX5C7SXapvcRNkwwT43oRCapzutFTsJmnhb8GtwNy0332p8YY6pMIP4pphkFiFD7A0FfdRUqllSUp2iP5R-Vb4uxfx2q-VbwEYA6XFC445DhrS8pvA9QlqySXC6pLpxbMGBHmBNYg__);
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .circle {
+  position: absolute;
+  height: 43px;
+  width: 43px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(4) {
+  background-color: #EEBD19;
+  left: 7rem;
+  bottom: 10rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(2) {
+  background-color: #F04F5A;
+  right: 7rem;
+  top: 10rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .circle:nth-of-type(3) {
+  background-color: #2688FC;
+  right: 0rem;
+  bottom: 9rem;
+  animation: wobble 3s ease-in-out infinite;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .two {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .two .top {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3187/aee9/3b26e72b8ef0eb62323b57f2c94ada77?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JP8qUqCHjoEW8CwLW3vRKzPrKExsZOd3-NsQbnjnT84HGlL4xeajtrR5goeInIsM7TSx6caNjnuYuhn3svPs21mypiXtWIBBDEyyQCbKbL29vuCfC70KaAaLw9mXkY4hapIiABeak2vMiua7-gPj8ySQ6ORtEqUi~6cIY2BpwERsu1tPD8vbCKfnyIrV99CTT6Ii7xvQ9lXZ0AB09Q81JE1h51s5g9mMHkWBDyFLYXpoJ9qBn99tQsJ4B436ognP9h85JLqWP8918ZZprMYBB1wv~4aoV4L0F2RcVdWz58XLgfMXdCdVpO2e898t5qzLVIWUaE7XyLzoJOmj-ncY6A__);
+  background-position: center top;
+  background-size: cover;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .two .bottom {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/534a/ab05/852ac2546d87081b636eb52bb85b2a47?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cJcdcNRYcPfqOlMQUgBPf5gzUjGgeotrIITnUOdWcN~K~LcP4DCqc3~KhR4izETPXv07PRhq02W-NESYntncHrwXF~-zSigkOfTLf-xJIsgXjaWsxfXVwdRfTtQRTnqoGn6105~EDQDRnzNPoozU~NbfLq19b1Joctaxs7c~w3OPazWa5mpjGlapGR67v-uBcMOwzxWLC5PtcXgmbibO7OTtn1bYJB0E5Q8mYjQGYn3KmZ4C3d21yCJNB-iJGo0Hf503OsJG4IQ7KRiJu2dXZCeTma5xjEzXODeoFCqPi3C3YTkyz~8bg-82xqGWIpRL03SIrXaFyYY1Qzh~NyEGmA__);
+  background-position: center top;
+  background-size: cover;
+}
+.banner_main.dark aside:nth-of-type(2) .landingpage_banner .three {
+  width: 150px;
+  height: 400px;
+  border-radius: 4rem;
+  background-image: url(https://s3-alpha-sig.figma.com/img/30aa/473e/e21ae3eb7e3b8c79f5ecfb8173b840a3?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ErUY9V1jxd97scYgtlXb3SQ2uJn8TCCmwsAooVGPGzbmnuUgfrfponh-0z4RgHSsqWcaNW7hbXkxad940O4HG4MGOuVXoEp50y6PLS9XAdg24zWNrOgCO8XQH5SnoiKwzab-L3yuZn6h8WaUC-mtXgI2ZrCkjITzGf4-cY6hIJdGkKSunhLxq6dElXlS1IrUdsfHOs9aQIXjkMb9heQI2qkYdLSIf~v87Cyamb~NKRZXCcrMu47oOSLo2tLCqzvoe1DsyUOUbtUObv3Ls2qGSL243lUEEsJZuZNZG3eaxlzi6epy0Jcw5y7AzNhy~MhLhkMe9RH2JKR~6cq2yX6YmA__);
+  background-position: center;
+  background-size: 200% 150%;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+}
+
+@keyframes wobble {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(2px, -2px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-2px, 2px) rotate(-2deg);
+  }
+  75% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}/*# sourceMappingURL=Banner.css.map */
