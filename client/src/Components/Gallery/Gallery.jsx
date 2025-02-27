@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Gallery.css";
+import Vector from '../../assets/images/Image [h-3].png';
+
 
 const GalleryImage = ({ src, alt }) => (
   <div className="gallery-image">
@@ -52,7 +54,7 @@ function Gallery({theme}) {
         <div className="gallery-top">
           <div className="gallery-top-frame">
             <aside>
-              <img src="./assets/images/Image [h-3].png" alt="Develop Relationships" />
+              <img src={Vector} alt="Develop Relationships" />
               <p>DEVELOP RELATIONSHIPS</p>
             </aside>
             <aside>

@@ -4,11 +4,9 @@ import LandingPage from './Pages/LandingPage/LandingPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/DevQuestPKWebsite">
       <Routes>
-        <Route path='/' element={<LandingPage />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/" element={<LandingPage />} />
       </Routes>
     </Router>
   );
