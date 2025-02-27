@@ -5,6 +5,7 @@ import Banner from "../../Components/Banner/Banner";
 import Cards from "../../Components/CardSection/Cards";
 import SponsorsSection from "../../Components/SponsorsSection/Sponsors";
 import Footer from "../../Components/Footer/footer";
+import Gallery from "../../Components/Gallery/Gallery";
 
 export default function LandingPage() {
   const [theme, setTheme] = useState("light");
@@ -38,6 +39,16 @@ export default function LandingPage() {
         }}
       />
       <SponsorsSection theme={theme}></SponsorsSection>
+      <hr
+        style={{
+          width: "78%",
+          height: "2px",
+          backgroundColor: theme === "light" ? "black" : "white",
+          border: "none",
+          marginTop: '4rem',
+        }}
+      />
+      <Gallery theme={theme}/>
       <Footer theme={theme}></Footer>
     </main>
   );
