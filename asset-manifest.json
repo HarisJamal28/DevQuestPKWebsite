@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DevQuestPKWebsite/static/css/main.a09ce0cd.css",
-    "main.js": "/DevQuestPKWebsite/static/js/main.997812e1.js",
+    "main.js": "/DevQuestPKWebsite/static/js/main.bdd13b96.js",
     "index.html": "/DevQuestPKWebsite/index.html",
     "main.a09ce0cd.css.map": "/DevQuestPKWebsite/static/css/main.a09ce0cd.css.map",
-    "main.997812e1.js.map": "/DevQuestPKWebsite/static/js/main.997812e1.js.map"
+    "main.bdd13b96.js.map": "/DevQuestPKWebsite/static/js/main.bdd13b96.js.map"
   },
   "entrypoints": [
     "static/css/main.a09ce0cd.css",
-    "static/js/main.997812e1.js"
+    "static/js/main.bdd13b96.js"
   ]
 }
